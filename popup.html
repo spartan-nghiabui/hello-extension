@@ -1,0 +1,31 @@
+<html lang="en">
+
+<head>
+  <title>Stratos popup</title>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+
+<body>
+
+  <div id="not-google-meet-message" style="display:none; width: 300px;">
+    This extension only works on Google Meet, so please open Google Meet first.
+  </div>
+
+  <div id="popup-content">
+    <h2 style='margin-top: 0;'>Allow Stratos to help you summarize the call? </h2>
+    <div style='display: flex; gap: 10px'>
+      <div>Enable Stratos</div>
+      <label class="switch">
+        <input id="enabled" type="checkbox">
+        <span class="slider round"></span>
+      </label>
+    </div>
+    <input class="secret" id="item" type="text">
+  </div>
+
+
+
+  <script src="popup.js"></script>
+</body>
+
+</html>
